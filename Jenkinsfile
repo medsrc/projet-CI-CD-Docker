@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Checkout SCM') {
             steps {
-                git branch: 'main', url: 'https://github.com/medsrc/projet-CI-build-maven.git'
+                git branch: 'main', url: 'https://github.com/medsrc/projet-CI-CD-Docker.git'
                   }
         }
          stage('Build') {
